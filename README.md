@@ -30,8 +30,8 @@ let schema = {
 
 现在支持可填参数:
 
-* number（纯数字的字符串/数字，整型, ***纯数字的字符串最大长度2147483647（js能支持的理论上string最大长度）***
-* string（字符串，***长度不能超过2147483647(js支持的string最大理论长度)*** ）
+* number（纯数字的字符串/数字，整型）
+* string（字符串）
 * array 数组
 	* 1：arrayRules可以为空
 	* 2：数组里面的元素必须满足arrayRules，当数组是空数组的时候arrayRules的校验返回的是true
@@ -52,8 +52,6 @@ let schema = {
    * ?表示>=0的整型数字
 6. applyFunction: 自定义校验函数
 
-
-***ihRule的参数中除了TS其他都先定了输入参数类型是string，使用时可以不用type限制***
 
 ### 相对复杂schema的例子和说明
 
