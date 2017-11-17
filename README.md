@@ -1,18 +1,4 @@
-# AJKModel使用文档
-
-## 安装引入AJKModel
-
-安装
-
-```
-npm install @aijiakan/AJKModel
-```
-
-引入
-
-```
-let AJKModel = require('../node_modules/@aijiakang/AJKModel');
-```
+# 使用文档
 
 
 ## schema
